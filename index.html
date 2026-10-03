@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">TIP CALCULATOR</h1>
+            <ul class="nav-items">
+                <li>Home</li>
+                <li>About Us</li>
+                <li><a href="https://godsonvo-portfolio.vercel.app/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+            <div class="calc">
+                <h1>Hi There!!</h1>
+                <div class="input-box">
+                    <div class="input-text">
+                        <h2>Bill Amt</h2>
+                    </div>
+                    <input id="bamt" type="number" placeholder="₹1000">
+                </div>
+                <div class="input-box2">
+                    <div class="input-text2">
+                        <h2>Tip %</h2>
+                    </div>
+                    <select id="tip">
+                        <option id="5" value="10">10%</option>
+                        <option id="10" value="15">15%</option>
+                        <option id="20" value="20">20%</option>
+                    </select>
+                </div>
+                <button id="calc">
+                    Calculate
+                </button>
+                <h2 id="tamt"></h2>
+            </div>
+    </section>
+    <footer>
+        &copy; <a href="https://godsonvo-portfolio.vercel.app/">Godson V O</a>&nbsp;|&nbsp;2026
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
